@@ -420,7 +420,7 @@ class CircleChanger(object):
         self.circle.fill_color = 'red'
         color1 = self.colors
         circle2 = other_circle_changer.colors
-        self.colors = color1 + circle2
+        self.colors = color1 + circle2 #not sure why this is failing
 
         return self
 
